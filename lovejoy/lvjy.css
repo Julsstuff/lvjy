@@ -1,0 +1,424 @@
+header img {
+    width: 150px;
+    height: 70px;
+    padding: 25px;
+}
+body {
+    background-color:#4d1617 ;
+    margin: 0px;
+    padding: 0px;
+}
+header {
+
+    height: 100px;
+    background: linear-gradient(#290e0e, #4d1617);
+    display: flex;
+}
+.menu {
+    width: 100%;
+    display: flex;
+   justify-content: end;
+}
+.au, .albums,.merch {
+    padding: 10px;
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+    padding-right: 50px;
+    font-size: 25px;
+}
+
+.block {
+    width: 1700px;
+    height: 800px;
+    background-color: white;
+    position: absolute;
+    left: 120px;
+    top: 130px;
+}
+.block img {
+    width: 800px;
+    height: 800px;
+    float: left;
+}
+.lvjy {
+    font-size: 50px;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+}
+.line {
+    border-top: #4d1617 5px solid;
+    width: 500px;
+    position: absolute;
+    right: 200px;
+    top: 130px;
+}
+.info {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: justify;
+}
+.info_block {
+    width: 750px;
+    height: 550px;
+    position: absolute;
+    right: 75px;
+    top: 150px;
+}
+.discs img {
+    position: absolute;
+    top: 1000px;
+    width: 800px;
+    height: 800px;
+    left: 200px;
+}
+.music {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 1770px;
+    left: 300px;
+}
+.store {
+    position: absolute;
+    top: 2000px;
+    left: 140px;
+    display: flex;
+}
+.store img {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
+.frog {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 1100px;
+    left: 1150px;
+}
+.froggy {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 1700px;
+    left: 1200px;
+    text-align: center;
+}
+.block2 {
+    background-color: white;
+    width: 1800px;
+    height: 530px;
+    position: absolute;
+    top: 1920px;
+    left: 50px;
+}
+.sweater {
+    color: rgb(0, 0, 0);
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+}
+.tshirt {
+    color: rgb(0, 0, 0);
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+}
+.long {
+    color: rgb(0, 0, 0);
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+}
+.socks {
+    color: rgb(0, 0, 0);
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+}
+.cat {
+    color: rgb(0, 0, 0);
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+}
+.buy {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 40px;
+    top: 1900px;
+    left:  900px;
+}
+
+
+
+
+@media (max-width:1440px) {
+    .block {
+        width: 1400px;
+        height: 700px;
+        position: absolute;
+        left: 20px;
+    }
+    .block img {
+        width: 700px;
+        height: 700px;
+    }
+    .info_block {
+      width: 650px;
+      height: 450px;
+      position: absolute;
+      right: 30px;
+      top: 100px;
+    }
+    .info {
+        font-size: 35px;
+    }
+    .line {
+        position: absolute;
+        right: 100px;
+    }
+    .discs img {
+        position: absolute;
+        left: 20px;
+    }
+    .frog {
+        position: absolute;
+        left: 870px;
+        width: 550px;
+        height: 550px;
+    }
+    .froggy{
+        font-size: 30px;
+        width: 500px;
+        position: absolute;
+        left: 900px;
+    }
+    .music {
+        position: absolute;
+        left: 100px;
+    }
+    .block2 {
+        position: absolute;
+        width: 1400px;
+        left: 20px;
+    }
+    .store img{
+        width: 250px;
+        height: 250px;
+        padding: 5px;
+    }
+    .store {
+        left: 55px;
+    }
+    .buy {
+        left: 670px;
+    }
+
+
+
+ @media (max-width:1024px) {
+    .block {
+         width: 990px;
+         height: 600px;
+         position: absolute;
+         left: 20px; 
+    }
+    .block img {
+        width: 550px;
+        height: 600px;
+    }
+    .info_block {
+        width: 400px;
+        height: 450px;
+        right: 15px;
+        top: 90px;
+    }
+    .info {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .lvjy {
+       font-size: 40px; 
+    }
+    .line {
+        right: 20px;
+        top: 100px;
+        width: 400px;
+    }
+    .discs img {
+        width: 500px;
+        height: 500px;
+        top: 800px;
+    }
+    .frog {
+        width: 450px;
+        height: 450px;
+        left: 550px;
+        top: 825px;
+    }
+    .music {
+        font-size: 30px;
+        left: 40px;
+        top: 1300px;
+    }
+    .froggy {
+        font-size: 30px;
+        left: 540px;
+        top: 1270px; 
+    }
+    .block2 {
+        width: 990px;
+        height: 350px;
+        top: 1500px;
+    }
+    .store {
+        top: 1550px;
+        left: 40px;
+    }
+    .store img {
+        width: 170px;
+        height: 170px;
+        padding: 10px;
+    }
+    .sweater,.tshirt,.long,.socks,.cat {
+        font-size: 15px;
+    }
+    .buy {
+        left: 500px;
+        top: 1465px;
+    }
+    } 
+}
+
+
+@media (max-width:768px) {
+    .block {
+        width: 700px;
+        height: 450px;
+        left: 40px;
+    }
+    .block img {
+        width: 360px;
+        height: 450px;
+    }
+    .info_block {
+        height: 400px;
+        width: 300px;
+        top: 45px;
+    }
+    .info {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .lvjy {
+        font-size: 25px;
+    }
+    .line {
+        width: 280px;
+        top: 55px;
+    }
+    .discs img {
+        width: 400px;
+        height: 400px;
+        top: 650px;
+    }
+    .frog {
+        width: 300px;
+        height: 300px;
+        top: 700px;
+        left: 450px;
+    }
+    .music {
+        font-size: 20px;
+        top: 1050px;
+        left: 50px;
+    }
+    .froggy {
+        font-size: 20px;
+        top: 1000px;
+        left: 350px;
+    }
+    .block2 {
+        width: 750px;
+        left: 10px;
+        top: 1200px;
+    }
+    .store img {
+        width: 130px;
+        height: 130px;
+    }
+    .store {
+        left: 10px;
+        top: 1300px;
+    }
+    .buy {
+        top: 1200px;
+        left: 350px;
+    }
+}
+
+
+@media (max-width:320px) {
+    .block {
+        width: 300px;
+        height: 700px;
+        left: 10px;
+    }
+    .block img {
+        width: 300px;
+        height: 300px;
+    }
+    .info_block {
+        width: 290px;
+        height: 300px;
+        left: 5px;
+        top: 350px;
+    }
+    .info {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .line {
+        left: 10px;
+        top: 350px;
+    }
+    .au, .albums,.merch {
+        padding: 5px;
+        font-size: 10px;
+    }
+    .discs img {
+        width: 300px;
+        height: 300px;
+        left: 10px;
+        top: 850px;
+    }
+    .music {
+        top: 1140px;
+    }
+    .frog {
+        width: 300px;
+        height: 300px;
+        left: 10px;
+        top: 1230px;
+    }
+    .froggy {
+        top: 1530px;
+        left: 60px;
+        font-size: 15px;
+        text-align: left;
+    }
+    .block2 {
+        width: 300px;
+        height: 1250px;
+        top: 1600px;
+    }
+    .store {
+        display: grid;
+        top: 1700px;
+        left: 70px;
+    }
+    .buy {
+        left: 100px;
+        top: 1600px;
+    }
+}
